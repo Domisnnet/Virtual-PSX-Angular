@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
-import { CardComponent } from '../../components/card/card.component';
+import { CardComponent } from '@components/card/card.component';
+import { MenuBarComponent } from '@components/menu-bar/menu-bar.component';
 
 @Component({
   selector: 'app-home-component',
