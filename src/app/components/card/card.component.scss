@@ -1,5 +1,25 @@
 .card__container {
-    position: relative;
-    margin: 150px;
-    color: #fff;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 500px;
+  margin-top: 90px;
+  border: 4px #3E4357;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card__img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.8s ease-in-out;
+}
+
+.card__img:hover {
+  transform: scale(1.1);
 }
