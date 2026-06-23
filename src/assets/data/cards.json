@@ -1,0 +1,38 @@
+[
+  {
+    "image": "assets/images/ac-cover.jpg",
+    "title": "Assassin's Creed",
+    "label": "Deluxe Edition",
+    "price": 199.90
+  },
+  {
+    "image": "assets/images/bt-1.jpg",
+    "title": "Battlefield 1",
+    "label": "Revolution Edition",
+    "price": 99.90
+  },
+  {
+    "image": "assets/images/bt-4.jpg",
+    "title": "Battlefield 4",
+    "label": "Premium Edition",
+    "price": 89.90
+  },
+  {
+    "image": "assets/images/bt-5.jpg",
+    "title": "Battlefield V",
+    "label": "Definitive Edition",
+    "price": 149.90
+  },
+  {
+    "image": "assets/images/bt-bad-company-2.jpg",
+    "title": "Battlefield: Bad Company 2",
+    "label": "Ultimate Edition",
+    "price": 79.90
+  },
+  {
+    "image": "assets/images/bt-hardline.jpg",
+    "title": "Battlefield Hardline",
+    "label": "Ultimate Edition",
+    "price": 119.90
+  }
+]

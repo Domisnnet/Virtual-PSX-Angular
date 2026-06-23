@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CurrencyPipe } from '@angular/common';
 
 @Component({
-  selector: 'app-card-pricing-component',
+  selector: 'app-card-pricing',
   standalone: true,
-  imports: [],
+  imports: [ CurrencyPipe ],
   templateUrl: './card-pricing.component.html',
   styleUrls: ['./card-pricing.component.scss'],
 })
-export class CardPricingComponent {}
+export class CardPricingComponent {
+  @Input() price!: number;
+}

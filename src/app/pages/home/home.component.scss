@@ -1,7 +1,14 @@
 .home__container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin: auto;
+  width: 100%;
+}
+
+main {
+  padding-top: 90px;
+}
+
+.cards__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
+  justify-content: center;
+  gap: 20px;
 }

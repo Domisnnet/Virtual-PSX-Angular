@@ -1,6 +1,14 @@
 <div class="home__container">
   <app-menu-bar-component></app-menu-bar-component>
   <main>
-    <app-card-component></app-card-component>
+    <div class="cards__grid">
+      <app-card
+        *ngFor="let card of cards"
+        [image]="card.image"
+        [title]="card.title"
+        [label]="card.label"
+        [price]="card.price">
+      </app-card>
+    </div>
   </main>
 </div>

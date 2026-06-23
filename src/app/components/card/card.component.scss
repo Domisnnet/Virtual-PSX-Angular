@@ -5,8 +5,11 @@
   justify-content: center;
   width: 350px;
   height: 500px;
-  margin-top: 90px;
-  border: 4px #3E4357;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #3E4357;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
@@ -21,5 +24,24 @@
 }
 
 .card__img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.card__label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card__price {
+  font-size: 1rem;
 }
