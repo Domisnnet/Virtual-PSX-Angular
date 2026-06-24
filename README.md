@@ -1,4 +1,4 @@
-Entre no Portfólio clicando no botão abaixo:
+Entre no Projeto clicando no botão abaixo:
 
 <div align="left">
   <a href="https://virtual-psx-angular.web.app/home" target="_blank">
