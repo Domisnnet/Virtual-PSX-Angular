@@ -1,15 +1,16 @@
 <div class="home">
   <app-header-component></app-header-component>
   <main class="home__main">
-    <section class="home__content" aria-label="Lista de Cards">
+    <section class="home__content">
       <div class="cards__grid">
-        <app-card
-          *ngFor="let card of cards; trackBy: trackByTitle"
-          [image]="card.image"
-          [title]="card.title"
-          [label]="card.label"
-          [price]="card.price"
-        ></app-card>
+        @for (card of cards; track card.title) {
+          <app-card
+            [image]="card.image"
+            [title]="card.title"
+            [label]="card.label"
+            [price]="card.price"
+          ></app-card>
+        }
       </div>
     </section>
   </main>
