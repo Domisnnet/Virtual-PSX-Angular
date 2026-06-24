@@ -1,14 +1,30 @@
-<header>
-  <div class="menu-bar__container">
-    <div class="menu-bar__logo">
-      <img src="assets/images/ps-logo.png" alt="Logo da Virtual PSX">
-    </div>
-    <div class="menu-bar__item">
-      <ul>
-        <li><a href="#">YouTube</a></li>
-        <li><a href="#">LinKedin</a></li>
-        <li><a href="#">GitHub</a></li>
+<header class="header">
+  <div class="header__inner">
+    <a class="header__brand" routerLink="/" aria-label="Ir para a página inicial">
+      <img
+        class="header__logo"
+        src="assets/images/ps-logo.png"
+        alt="Logo da PlayStation Store"
+      />
+    </a>
+    <nav class="header__nav" aria-label="Navegação principal">
+      <ul class="header__list">
+        <li class="header__item">
+          <a class="header__link" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+            YouTube
+          </a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="https://github.com" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </li>
       </ul>
-    </div>
+    </nav>
   </div>
 </header>
