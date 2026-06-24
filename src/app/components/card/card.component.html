@@ -1,15 +1,20 @@
-<div class="card__container">
-  <img
-    class="card__img"
-    [src]="image"
-    [alt]="title"
-    width="350"
-    height="500"
-    loading="lazy"
-  >
+<article class="card">
+  <div class="card__media">
+    <img
+      class="card__img"
+      [src]="image"
+      [alt]="title"
+      width="350"
+      height="500"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
   <div class="card__overlay">
     <h3 class="card__title">{{ title }}</h3>
-    <h3 class="card__label">{{ label }}</h3>
-    <p class="card__price">{{ price | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}</p>
+    <p class="card__label">{{ label }}</p>
+    <p class="card__price">
+      {{ price | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}
+    </p>
   </div>
-</div>
+</article>
