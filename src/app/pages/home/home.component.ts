@@ -19,8 +19,14 @@ export class HomeComponent implements OnInit {
   cards: CardData[] = [];
   constructor(private cardService: CardService) {}
   ngOnInit(): void {
-    this.cardService.getCards().subscribe(cards => {
-      this.cards = cards;
+    this.cardService.getCards().subscribe({
+      next: (cards) => {
+        console.log('cards:', cards);
+        this.cards = cards;
+      },
+      error: (err) => {
+        console.error('Erro ao carregar cards:', err);
+      }
     });
   }
 }
