@@ -1,16 +1,20 @@
-<div class="home__container">
+<div class="home">
   <app-header-component></app-header-component>
-  <main>
-    <div class="cards__grid">
-      <p style="color: white; font-size: 24px;">HOME OK</p>
-      <app-card
-        *ngFor="let card of cards"
-        [image]="card.image"
-        [title]="card.title"
-        [label]="card.label"
-        [price]="card.price"
-      ></app-card>
-      <p style="color: white; font-size: 24px;">HOME OK</p>
-    </div>
+  <main class="home__main">
+    <section class="home__content" aria-label="Lista de cards">
+      <p class="home__status" *ngIf="loading">Carregando cards...</p>
+      <p class="home__status home__status--error" *ngIf="errorMessage">
+        {{ errorMessage }}
+      </p>
+      <div class="cards__grid" *ngIf="!loading && !errorMessage">
+        <app-card
+          *ngFor="let card of cards; trackBy: trackByTitle"
+          [image]="card.image"
+          [title]="card.title"
+          [label]="card.label"
+          [price]="card.price"
+        ></app-card>
+      </div>
+    </section>
   </main>
 </div>
