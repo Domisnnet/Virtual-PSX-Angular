@@ -1,12 +1,8 @@
 <div class="home">
   <app-header-component></app-header-component>
   <main class="home__main">
-    <section class="home__content" aria-label="Lista de cards">
-      <p class="home__status" *ngIf="loading">Carregando cards...</p>
-      <p class="home__status home__status--error" *ngIf="errorMessage">
-        {{ errorMessage }}
-      </p>
-      <div class="cards__grid" *ngIf="!loading && !errorMessage">
+    <section class="home__content" aria-label="Lista de Cards">
+      <div class="cards__grid">
         <app-card
           *ngFor="let card of cards; trackBy: trackByTitle"
           [image]="card.image"

@@ -5,6 +5,7 @@
 .home {
   width: 100%;
   min-height: 100vh;
+  margin-bottom: 10px;
 }
 
 .home__main {
@@ -13,17 +14,6 @@
 
 .home__content {
   width: 100%;
-}
-
-.home__status {
-  color: #fff;
-  text-align: center;
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-
-.home__status--error {
-  color: #ff8080;
 }
 
 .cards__grid {

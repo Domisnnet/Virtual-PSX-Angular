@@ -18,20 +18,18 @@ import { CardService, CardData } from '@app/components/services/card.service';
 export class HomeComponent implements OnInit {
   private readonly cardService = inject(CardService);
   cards: CardData[] = [];
-  loading = true;
-  errorMessage = '';
   ngOnInit(): void {
     this.cardService.getCards().subscribe({
       next: (cards) => {
-        this.cards = cards ?? [];
-        this.loading = false;
+        this.cards = [...cards];
       },
-      error: () => {
+      error: (err) => {
+        console.error('[HomeComponent] Error loading cards:', err);
         this.cards = [];
-        this.loading = false;
-        this.errorMessage = 'Não foi possível carregar os cards.';
       },
     });
   }
-  trackByTitle(index: number, card: CardData): string { return card.title; }
+  trackByTitle(index: number, card: CardData): string {
+    return card.title;
+  }
 }

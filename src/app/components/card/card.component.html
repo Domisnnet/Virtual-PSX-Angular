@@ -13,8 +13,6 @@
   <div class="card__overlay">
     <h3 class="card__title">{{ title }}</h3>
     <p class="card__label">{{ label }}</p>
-    <p class="card__price">
-      {{ price | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}
-    </p>
+    <p class="card__price">R$ {{ price.toFixed(2) }}</p>
   </div>
 </article>

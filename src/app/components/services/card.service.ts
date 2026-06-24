@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { Observable, throwError } from 'rxjs';
-import { catchError, map } from 'rxjs/operators';
+import { Observable, of, throwError } from 'rxjs';
+import { catchError } from 'rxjs/operators';
 
 export interface CardData {
   image: string;
@@ -18,18 +18,13 @@ export class CardService {
   constructor(private http: HttpClient) {}
   getCards(): Observable<CardData[]> {
     return this.http.get<CardData[]>(this.cardsUrl).pipe(
-      map((cards) => cards ?? []),
-      catchError(this.handleError)
+      catchError((error: HttpErrorResponse) => {
+        console.error('[CardService] Failed to load cards:', error);
+        if (error.status === 404) {
+          console.error('[CardService] cards.json not found at:', this.cardsUrl);
+        }
+        return throwError(() => new Error('Não foi possível carregar os cards.'));
+      })
     );
-  }
-  private handleError(error: HttpErrorResponse): Observable<never> {
-    let message = 'Erro inesperado ao carregar os cards.';
-    if (error.error instanceof ErrorEvent) {
-      message = `Erro no cliente: ${error.error.message}`;
-    } else {
-      message = `Erro na requisição (${error.status}): ${error.message}`;
-    }
-    console.error('[CardService] getCards failed:', message, error);
-    return throwError(() => new Error(message));
   }
 }
