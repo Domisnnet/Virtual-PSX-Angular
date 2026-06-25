@@ -10,7 +10,7 @@
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Domisnnet/Virtual-PSX-Angular/blob/main/LICENSE)
 ![Portfólio](src/assets/images/virtual.png)
 
-Bem-vindo ao meu Repositório:  **PSX Store Angular**. Esta aplicação é uma Plataforma fictícia de Games digitais desenvolvida com Angular, utilizando componentes Standalone para máxima reutilização e otimização de performance. O projeto combina design sofisticado, feito em SCSS com componentes reutilizáveis como: Cards e Header, refletindo minha stack de especialista em Front-end.
+Bem-vindo ao meu Repositório:  **PSX Store Angular**. Esta aplicação é uma Plataforma fictícia de Games digitais desenvolvida com Angular, utilizando componentes Standalone para máxima reutilização e otimização de performance. O projeto combina design sofisticado, feito em **SCSS** com componentes reutilizáveis como: **Cards e Header** e uma infraestrutura escalável no **Firebase**, refletindo minha stack de especialista em Front-end.
 
 ---
 
