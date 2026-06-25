@@ -2,7 +2,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Virtual-PSX-Angular?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/Virtual-PSX-Angular?style=for-the-badge)
 
-<h2 id="sobre-o-projeto">1. PS Store Angular - Plataforma de Games Digital 🎮💿</h2>
+<h2 id="sobre-o-projeto">1. 🎮 Plataforma fictícia de Games Digital 🎮💿</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen?style=flat-square)
 ![Angular](https://img.shields.io/badge/Angular-20-DD0031?style=flat-square&logo=angular&logoColor=white)
@@ -10,7 +10,7 @@
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Domisnnet/Virtual-PSX-Angular/blob/main/LICENSE)
 ![Portfólio](src/assets/images/virtual.png)
 
-Bem-vindo ao repositório do meu PSX Store Angular. Esta aplicação é uma plataforma fictícia de games digital desenvolvida com Angular, utilizando componentes Standalone para máxima performance. O projeto combina design sofisticado em SCSS com componentes reutilizáveis como cards e headers, refletindo minha stack de especialista em Front-end.
+Bem-vindo ao repositório do meu PSX Store Angular. Esta aplicação é uma Plataforma fictícia de games digital desenvolvida com Angular, utilizando componentes Standalone para máxima performance. O projeto combina design sofisticado em SCSS com componentes reutilizáveis como cards e headers, refletindo minha stack de especialista em Front-end.
 
 ---
 
