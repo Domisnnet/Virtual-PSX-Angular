@@ -10,7 +10,7 @@
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Domisnnet/Virtual-PSX-Angular/blob/main/LICENSE)
 ![Portfólio](src/assets/images/virtual.png)
 
-Bem-vindo ao repositório do meu PSX Store Angular. Esta aplicação é uma Plataforma fictícia de games digital desenvolvida com Angular, utilizando componentes Standalone para máxima performance. O projeto combina design sofisticado em SCSS com componentes reutilizáveis como cards e headers, refletindo minha stack de especialista em Front-end.
+Bem-vindo ao meu repositório:  **PSX Store Angular**. Esta aplicação é uma Plataforma fictícia de Games digitais desenvolvida com Angular, utilizando componentes Standalone para máxima reutilização e otimização de performance. O projeto combina design sofisticado, feito em SCSS com componentes reutilizáveis como: Cards e Header, refletindo minha stack de especialista em Front-end.
 
 ---
 
@@ -50,25 +50,29 @@ Entre na PSX Store clicando no botão abaixo:
 
 <h2 id="funcionalidades">4. 🧩 Funcionalidades Principais</h2>
 
-Funcionalidade	Descrição
-🛡️ Standalone Components	Arquitetura moderna sem NgModules, reduzindo o bundle size e complexidade.
-🎴 Card Component System	Componente reutilizável para exibição de games com imagem, título, label e preço.
-🧭 Header Navigation	Componente de header com navegação, logo e links externos (YouTube, LinkedIn, GitHub).
-⚡ Firebase Hosting	Entrega ultra-rápida via CDN global com certificado SSL e cache inteligente.
-🎨 SCSS Modular	Estilização baseada em princípios de design atômico e estruturação modular.
+| Funcionalidade | Descrição |
+| :--- | :--- |
+| 🛡️ **Standalone Components** | Arquitetura moderna sem NgModules, reduzindo o bundle size e complexidade. |
+| 🎴 **Card Component System** | Componente reutilizável para exibição dinâmica de tecnologias com ícones. |
+| 🧭 **Header Navigation** | Componente de Header com navegação, logo e links externos (YouTube, LinkedIn, GitHub). |
+| ⚡ **Firebase Hosting** | Entrega ultra-rápida via CDN global com certificado SSL e cache inteligente. |
+| 🎨 **SCSS Modular** | Estilização baseada em princípios de design atômico e estruturação modular. |
 
 ---
 
 <h2 id="destaques-tecnicos">5. 💻 Destaques Técnicos</h2>
 
-🎴 O Componente card
-Desenvolvi um sistema de cards altamente customizável para exibição de games. Ele recebe propriedades dinâmicas para imagem, título, label e preço, utilizando lazy loading (loading="lazy", decoding="async") para otimização de performance e ARIA attributes para acessibilidade.
+🎴 O Componente Card:
 
-🧭 O Componente header
-O header da aplicação possui logo brand com routerLink e aria-label, navegação principal com links externos (YouTube, LinkedIn, GitHub), acessibilidade com aria-label e segurança com rel="noopener noreferrer" em links externos.
+Desenvolvi um sistema de **Cards** altamente customizáveis para exibição dos Cards dos Games. Ele recebe propriedades dinâmicas para imagem, título, label e preço, utilizando lazy loading **(loading="lazy", decoding="async")** para otimização de performance e **ARIA Attributes** para acessibilidade.
 
-🔄 CI/CD com Firebase
-O projeto utiliza GitHub Actions para que cada push na branch principal dispare um build de produção (ng build) e o deploy imediato para o Firebase Hosting, garantindo que o site esteja sempre atualizado sem intervenção manual.
+🧭 O Componente Header:
+
+O header da aplicação possui uma **Logo Brand** com: **routerLink e aria-label**, navegação principal com links externos **(YouTube, LinkedIn, GitHub)**, acessibilidade com aria-label e segurança com rel="noopener noreferrer" em links externos.
+
+🔄 CI/CD com Firebase:
+
+O projeto utiliza **GitHub Actions** para automatizar builds e deploys. Isso garante que cada push na branch principal dispare um build de produção **(ng build)** e o deploy imediato para o **Firebase Hosting**, garantindo que o site esteja sempre atualizado sem intervenção manual.
 
 ---
 
@@ -115,8 +119,8 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 </details>
 
 <details>
-<summary><strong>Como foi tratada a performance da PS Store ❓</strong></summary>
-<p>⚡ <strong>Resposta:</strong> Utilizei lazy loading nas imagens (loading="lazy", decoding="async"), otimizações de imagem e minificação de SCSS, utilizando a CDN global do <strong>Firebase Hosting</strong> para atingir pontuações altas no <em>Lighthouse</em>.</p>
+<summary><strong>Como foi tratada a performance da PSX Store ❓</strong></summary>
+<p>⚡ <strong>Resposta:</strong> Utilizei lazy loading nas imagens <strong>(loading="lazy", decoding="async")</strong>, otimizações de imagens e minificação de SCSS, utilizando a CDN global do <strong>Firebase Hosting</strong> para atingir pontuações altas no <em>Lighthouse</em>.</p>
 </details>
 
 <details>
@@ -130,7 +134,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 </details>
 
 <details>
-<summary><strong>Posso utilizar este código em meu Portfólio e/ou projeto pessoal ❓</strong></summary>
+<summary><strong>Posso utilizar este código em meu Portfólio e/ou Projeto pessoal ❓</strong></summary>
 <p>🤝 <strong>Resposta:</strong> Com certeza. O projeto é <strong>Open Source</strong>. Você pode clonar, estudar a estrutura de pastas e utilizar como base para seus próprios estudos de UI, desde que mantenha a atribuição original conforme a licença MIT e não se esqueça de dar os devidos créditos!!.</p>
 </details>
 
@@ -138,7 +142,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 <h2 id="codigo-fonte">9. 💻 Código Fonte</h2>
 
-Explore a arquitetura Angular completa no repositório oficial:
+Explore a arquitetura Angular completa no meu Repositório Oficial:
 
 ![Angular](https://img.shields.io/badge/Angular-20-DD0031?style=for-the-badge&logo=angular&logoColor=fff)
 [![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FVirtual--PSX--Angular-DD0031?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Domisnnet/Virtual-PSX-Angular)
@@ -151,7 +155,7 @@ Explore a arquitetura Angular completa no repositório oficial:
 | :--- | :--- | :--- |
 | **Full-Stack Dev** | **DomisDev** | Design, Arquitetura Angular e Configuração DevOps. |
 | **Infraestrutura** | **Google Firebase** | Provedor de Hosting e serviços cloud. |
-| **Apoio Técnico** | **Google Gemini** | Padronização King-Domfy e refinamento documental. |
+| **Apoio Técnico** | **Google Gemini** | Padronização e refinamento documental. |
 
 ---
 
