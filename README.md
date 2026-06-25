@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/Virtual-PSX-Angular?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Virtual-PSX-Angular?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/Virtual-PSX-Angular?style=for-the-badge)
@@ -31,7 +30,6 @@ Bem-vindo ao repositório do meu PSX Store Angular. Esta aplicação é uma plat
 Entre na PS Store clicando no botão abaixo:
 =======
 Entre no Projeto clicando no botão abaixo:
->>>>>>> e9235ce1dfeb106b8011732eaca7279878b27cd1
 
 <div align="left">
 <a href="https://ps-store-angular.web.app/" target="_blank">
