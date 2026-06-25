@@ -32,7 +32,7 @@ Entre na PS Store clicando no botão abaixo:
 Entre no Projeto clicando no botão abaixo:
 
 <div align="left">
-<a href="https://ps-store-angular.web.app/" target="_blank">
+<a href="https://virtual-psx-angular.web.app/home" target="_blank">
 <img alt="Botão Acessar" src="src/assets/images/botão.webp" height="70" width="70" />
 </a>
 </div>
